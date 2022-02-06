@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Une calculatrice HTML, CSS et JavaScript</title>
+		<link rel="stylesheet" type="text/css" href="design.css" />
+		<link rel="icon" type="image/png" href="favicon.png" />
+	</head>
+	<body>
+		<div class="calco" id="f_calc">
+			<div class="calco_label">
+				<span>MIU Boss Calculator <i>&copy; MIUniverse 2020</i></span>
+			</div>
+			<div class="first_panel">
+				<div class="screen_panel">
+					<span class="mem_screen"></span>
+					<span class="screen">0</span>
+				</div>
+			</div>
+			<div class="second_panel">
+				<div class="cmd_panel">
+					<div class="calco_line">
+						<a href="#" value="<---" class="cmd_button una_op" onclick="fordisplay('<---')"><---</a>
+						<a href="#" value="C" class="cmd_button una_op" onclick="forclear()">C</a>
+						<a href="#" value="CA" class="cmd_button  una_op" onclick="fordisplay('CA')">CA</a>
+						<div class="clear"></div>
+					</div>
+					<div class="calco_line">
+						<a href="#" value="M" class="cmd_button una_op" onclick="fordisplay('M')">M</a>
+						<a href="#" value="RM" class="cmd_button una_op" onclick="fordisplay('RM')">RM</a>
+						<a href="#" value="CM" class="cmd_button una_op" onclick="fordisplay('CM')">CM</a>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="number_panel">
+					<div class="calco_line">
+						<a href="#" value="7" class="cmd_button digit" onclick="fordisplay('7')">7</a>
+						<a href="#" value="8" class="cmd_button digit" onclick="fordisplay('8')">8</a>
+						<a href="#" value="9" class="cmd_button digit" onclick="fordisplay('9')">9</a>
+						<div class="clear"></div>
+					</div>
+					<div class="calco_line">
+						<a href="#" value="4" class="cmd_button digit" onclick="fordisplay('4')">4</a>
+						<a href="#" value="5" class="cmd_button digit" onclick="fordisplay('5')">5</a>
+						<a href="#" value="6" class="cmd_button digit" onclick="fordisplay('6')">6</a>
+						<div class="clear"></div>
+					</div>
+					<div class="calco_line">
+						<a href="#" value="1" class="cmd_button digit" onclick="fordisplay('1')">1</a>
+						<a href="#" value="2" class="cmd_button digit" onclick="fordisplay('2')">2</a>
+						<a href="#" value="3" class="cmd_button digit" onclick="fordisplay('3')">3</a>
+						<div class="clear"></div>
+					</div>
+					<div class="calco_line">
+						<a href="#" value="0" class="cmd_button digit" onclick="fordisplay('0')">0</a>
+						<a href="#" value="." class="cmd_button una_op" onclick="fordisplay('.')">.</a>
+						<a href="#" value="+/-" class="cmd_button una_op" onclick="fordisplay('+/-')">+/-</a>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<div class="third_panel">
+				<div class="op_panel">
+					<a href="#" value="+" class="cmd_button bin_op" onclick="fordisplay('+')">+</a>
+					<a href="#" value="-" class="cmd_button bin_op" onclick="fordisplay('-')">-</a>
+					<a href="#" value="/" class="cmd_button bin_op" onclick="fordisplay('/')">/</a>
+					<a href="#" value="*" class="cmd_button bin_op" onclick="fordisplay('*')">*</a>
+					<a href="#" value="=" class="cmd_button_dh una_op" onclick="solve()">=</a>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<script type="text/javascript" src="calc.js"></script>
+		
+		<script type="text/javascript">
+			init("f_calc");
+		</script>
+	
+	</body>
+</html>
