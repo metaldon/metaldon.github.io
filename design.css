@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.calco {
+    width: 18%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 247);
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+    
+}
+#f_calc {}
+
+.calco_label {
+    color: white;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -145px;
+    top: 135px;
+}
+
+.first_panel {
+    width: 90%;
+    height: 55px;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid #aca3a3;
+    border-radius: 5px;
+    position: relative;
+    top: 8px;
+  
+}
+
+.screen_panel {
+
+}
+.screen {
+    position: relative;
+    float: right;
+    top: 35px;
+    right: 5px;
+} 
+
+
+.second_panel {
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+.cmd_panel {
+    margin-bottom: 10px;
+}
+.cmd_button:hover{
+    cursor: pointer;
+    background-color: rgb(93, 94, 93);
+}
+.cmd_button:active {
+    color: black;
+    background-color:white;
+}
+.cmd_button_dh:active {
+   background-color:green;
+}
+
+
+.cmd_button {
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 13px;
+    display: inline-block;
+    height: 28px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.cmd_button_dh {
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 13px;
+    display: inline-block;
+    height: 72px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.calco_line {
+    position: relative;
+    top: 10px;
+ }
+.clear { }
+.una_op { 
+  text-align: center;
+}
+.digit {
+    text-align: center;
+ }
+ .bin_op
+ {
+     text-align: center;
+ }
+
+.number_panel {}
+
+.third_panel {
+    display: ruby-text;
+    position: relative;
+    left: 200px;
+}
+.op_panel {
+    position: relative;
+    right: 35px;
+    bottom: 58px;
+}
+
+
