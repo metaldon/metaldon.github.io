@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-style: italic;
+}
+#mypage-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: yellow;
+    height: 650px;
+    border: 10px solid rgb(204, 203, 204);
+    display: block;
+}
+.mypage-full-width {
+    width:  100%;
+    height: 100px;
+    position: relative;
+   
+}
+header {
+    
+    margin-top: -20px;
+    background-color: blue;
+}
+footer {
+    margin-top: -10px;
+    background-color: blue;
+}
+.mypage-large-content {
+    background-color: rgb(241, 11, 49);
+}
+#mypage-top-large-content {
+    margin-top: -10px;
+}
+#mypage-bottom-large-content {
+    margin-top: 110px;
+}
+
+#mypage-in-column-content-wrapper {
+    background-color: #f988fd;
+    height: 250px;
+    margin-top: -20px;
+    margin-bottom: -110px;
+    display: flex;
+ justify-content: space-between;
+}
+.mypage-float-left {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mypage-column-content-aside {
+    background-color: #f228dcde;
+    height: 145px;
+}
+#mypage-left-in-column-content {
+    width: 24%;
+}
+#mypage-right-in-column-content {
+    width: 24%;
+}
+
+#mypage-central-in-column-content {
+    background-color: green;
+    width: 52%;
+}
+
+@media screen and (max-width: 790px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        font-style: italic;
+    }
+    #mypage-container {
+        width: 80%;
+        margin: 0 auto;
+        background-color: yellow;
+        height: 550px;
+        border: 10px solid rgb(204, 203, 204);
+        display: block;
+    }
+        
+    .mypage-full-width {
+        width:  100%;
+        height: 75px;
+        position: relative;
+    
+    }
+    header {
+        
+        margin-top: -20px;
+        background-color: blue;
+    }
+    footer {
+        margin-top: -10px;
+        background-color: blue;
+    }
+    .mypage-large-content {
+        background-color: rgb(241, 11, 49);
+    }
+    #mypage-top-large-content {
+        margin-top: -10px;
+    }
+    #mypage-bottom-large-content {
+        margin-top: 110px;
+    }
+
+    #mypage-in-column-content-wrapper {
+        background-color: #f988fd;
+        height: 250px;
+        margin-top: -20px;
+        margin-bottom: -110px;
+        display: flex;
+    justify-content: space-between;
+    }
+    .mypage-float-left {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mypage-column-content-aside {
+        background-color: #f228dcde;
+        height: 145px;
+    }
+    #mypage-left-in-column-content {
+        width: 24%;
+    }
+    #mypage-right-in-column-content {
+        width: 24%;
+    }
+
+    #mypage-central-in-column-content {
+        background-color: green;
+        width: 52%;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+  
+    #mypage-container {
+        width: 80%;
+        margin: 0 auto;
+        background-color: yellow;
+        height: 4e50px;
+        border: 10px solid rgb(204, 203, 204);
+        display: block;
+    }
+        
+    .mypage-full-width {
+        width:  100%;
+        height: 50px;
+        position: relative;
+    
+    }
+    header {
+        
+        margin-top: -20px;
+        background-color: blue;
+    }
+    footer {
+        margin-top: -10px;
+        background-color: blue;
+    }
+    .mypage-large-content {
+        background-color: rgb(241, 11, 49);
+    }
+    #mypage-top-large-content {
+        margin-top: -10px;
+    }
+    #mypage-bottom-large-content {
+        margin-top: 110px;
+    }
+
+    #mypage-in-column-content-wrapper {
+        background-color: #f988fd;
+        height: 250px;
+        margin-top: -20px;
+        margin-bottom: -110px;
+        display: flex;
+    justify-content: space-between;
+    }
+    .mypage-float-left {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mypage-column-content-aside {
+        background-color: #f228dcde;
+        height: 145px;
+    }
+    #mypage-left-in-column-content {
+        width: 24%;
+    }
+    #mypage-right-in-column-content {
+        width: 24%;
+    }
+
+    #mypage-central-in-column-content {
+        background-color: green;
+        width: 52%;
+    }
+
+}
+
